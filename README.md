@@ -7,4 +7,4 @@ This is an UI framework based on Vue.
 
 ## demo
 
-:point_right: [https://JohnYu588.github.io/vase-ui/](https://JohnYu588.github.io/vase-ui/)</br>
+:point_right: [https://s-viking.github.io/ch-ui/](https://s-viking.github.io/ch-ui/)</br>
