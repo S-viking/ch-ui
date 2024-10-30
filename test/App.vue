@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <!-- <test-button>按钮测试</test-button> -->
-    <!-- <vs-water-full /> -->
-    <vs-uploader />
+    <test-button @click="add">按钮测试</test-button>
   </div>
 </template>
 
 <script>
-// import TestButton from './TestButton';
+import TestButton from "./TestButton.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    // TestButton,
+    TestButton,
+  },
+  methods: {
+    add() {
+      console.log("add");
+    },
   },
 };
 </script>
