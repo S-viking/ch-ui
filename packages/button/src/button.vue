@@ -50,6 +50,7 @@ export default {
     },
   },
   methods: {
+    // TODO添加loading样式
     handleClick(e) {
       this.$emit("click", e);
     },
