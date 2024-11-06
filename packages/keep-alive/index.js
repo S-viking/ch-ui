@@ -70,7 +70,6 @@ const ChKeepAlive = {
         return h("keep-alive", { props: { include: state.caches } }, children);
       },
     };
-
     Vue.component("ChKeepAlive", component);
   },
 };

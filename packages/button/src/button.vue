@@ -48,6 +48,10 @@ export default {
       type: String,
       default: "",
     },
+    buttonSize: {
+      type: String,
+      default: "default",
+    },
   },
   methods: {
     // TODO添加loading样式
