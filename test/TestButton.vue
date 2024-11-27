@@ -30,12 +30,18 @@
     </div>
     <div class="row">
       <ch-button plain>字体</ch-button>
-      <ch-button icon="ch-icon-check" circle plain type="primary"></ch-button>
+      <ch-button icon="ch-icon-check" circle plain type="primary"
+        >测试</ch-button
+      >
       <ch-button icon="ch-icon-message" circle plain type="success"></ch-button>
       <ch-button icon="ch-icon-search" circle plain type="info"></ch-button>
       <ch-button icon="ch-icon-star-off" plain type="warning"
         >字体图标</ch-button
       >
+    </div>
+    <div>
+      <ch-icon name="icon-sousuo" size="24px" color="pink"></ch-icon>
+      <i class="iconfont icon-sousuo"></i>
     </div>
   </div>
 </template>
